@@ -1,0 +1,24 @@
+{
+  "name": "mongo-dql",
+  "description": "A simple SQL-like data querying language to mongodb converter.",
+  "version": "1.0.0",
+  "author": "Allmas <info@allmas-tn.com>",
+  "license": "MIT",
+  "main": "lib/mongo-dql.js",
+  "repository": "git@github.com:allmas-tn/mongo-dql.git",
+  "devDependencies": {
+    "jison": "^0.4.17",
+    "mocha": "^2.4.5",
+    "should": "^8.4.0"
+  },
+  "scripts": {
+    "test": "mocha lib/*.spec.js",
+    "build-parser": "cd lib && jison dql.jison"
+  },
+  "keywords": [
+    "sql",
+    "dql",
+    "query",
+    "mongodb"
+  ]
+}
