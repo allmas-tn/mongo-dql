@@ -7,9 +7,9 @@
   "main": "lib/mongo-dql.js",
   "repository": "git@github.com:allmas-tn/mongo-dql.git",
   "devDependencies": {
+    "chai": "^3.5.0",
     "jison": "^0.4.17",
-    "mocha": "^2.4.5",
-    "should": "^8.4.0"
+    "mocha": "^2.4.5"
   },
   "scripts": {
     "test": "mocha lib/*.spec.js",
